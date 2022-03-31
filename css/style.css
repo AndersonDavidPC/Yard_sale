@@ -2,9 +2,9 @@
   --white: #FFFFFF;
   --black: #000000;
   --dark: #232830;
-  --very-light-pink: #C7C7C7;
-  --text-input-field: #F7F7F7;
-  --hospital-green: #ACD9B2;
+  --very-dark-desaturated-magenta: #6D4872;
+  --text-input-field: #EFF2F6;
+  --dark-grayish-magenta: #796B79;
   --sm: 1.4rem;
   --md: 1.6rem;
   --lg: 1.8rem;
@@ -47,7 +47,7 @@ html{
   text-align: center;
 }
 .subtitle{
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   font-size: var(--md);
   font-weight: 300;
   margin-top: 0;
@@ -69,7 +69,7 @@ html{
   margin-bottom: 12px;
 }
 .primary-button{
-  background-color: var(--hospital-green);
+  background-color: var(--dark-grayish-magenta);
   border: none;
   border-radius: 8px;
   color: var(--white);
@@ -109,15 +109,15 @@ html{
   margin-top: 28px;
 }
 .resend span{
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
 }
 .resend a{
-  color: var(--hospital-green);
+  color: var(--dark-grayish-magenta);
   text-decoration: none;
 }
 /* Class 3 */
 .form a{
-  color: var(--hospital-green);
+  color: var(--dark-grayish-magenta);
   font-size: var(--sm);
   text-align: center;
   text-decoration: none;
@@ -129,9 +129,9 @@ html{
 }
 .secondary-button{
   background-color: var(--white);
-  border: 1px solid var(--hospital-green);
+  border: 1px solid var(--dark-grayish-magenta);
   border-radius: 8px;
-  color: var(--hospital-green);
+  color: var(--dark-grayish-magenta);
   width: 100%;
   cursor: pointer;
   font-size: var(--md);
@@ -172,7 +172,7 @@ html{
 }
 /* Class 5 */
 .value{
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   font-size: var(--md);
   margin: 8px 0 32px 0;
 }
@@ -206,7 +206,7 @@ html{
   margin-bottom: 4px;
 }
 .product-info div p:nth-child(2){
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   font-size: var(--sd);
   margin-top: 0;
   margin-bottom: 0;
@@ -231,7 +231,7 @@ html{
 .desktop-menu {
   width: 132px;
   height: auto;
-  border: 1px solid var(--very-light-pink);
+  border: 1px solid var(--very-dark-desaturated-magenta);
   border-radius: 6px;
   padding: 16px 12px 0 12px;
 }
@@ -250,7 +250,7 @@ html{
 }
 .desktop-menu ul li:last-child {
   padding-top: 20px;
-  border-top: 1px solid var(--very-light-pink);
+  border-top: 1px solid var(--very-dark-desaturated-magenta);
 }
 .desktop-menu ul li a {
   color: var(--black);
@@ -259,7 +259,7 @@ html{
   display: inline-block;
 }
 .desktop-menu ul li:last-child a {
-  color: var(--hospital-green);
+  color: var(--dark-grayish-magenta);
   font-size: var(--sm);
 }
 /* Class 8 */
@@ -279,7 +279,7 @@ html{
   font-size: var(--lg);
 }
 .mobile-menu ul:nth-child(1){
-  border-bottom: 1px solid var(--very-light-pink);
+  border-bottom: 1px solid var(--very-dark-desaturated-magenta);
 }
 .mobile-menu ul:nth-child(1) a, .mobile-menu ul:nth-child(2) a{
   font-size: var(--lg);
@@ -294,7 +294,7 @@ html{
   color: var(--black);
 }
 .menu-sign-out{
-  color: var(--hospital-green);
+  color: var(--dark-grayish-magenta);
 }
 .mobile-menu ul li{
   margin-bottom: 24px;
@@ -343,7 +343,7 @@ html{
 }
 .order p span:nth-child(2){
   font-size: var(--sm);
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
 }
 .order p:nth-child(2){
   text-align: end;
@@ -368,7 +368,7 @@ html{
 }
 .shopping-cart p:nth-child(2){
   font-size: var(--sm);
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
 }
 .shopping-cart p:nth-child(3){
   font-size: var(--md);
@@ -388,7 +388,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding: 0 24px;
-  border-bottom: 1px solid var(--very-light-pink);
+  border-bottom: 1px solid var(--very-dark-desaturated-magenta);
 }
 .menu{
   display: none;
@@ -415,33 +415,34 @@ nav{
 }
 .navbar-left ul li a, .navbar-right ul li a{
   text-decoration: none;
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   border: 1px solid var(--white);
   padding: 8px;
   border-radius: 8px;
 }
 .navbar-left ul li a:hover, .navbar-right ul li a:hover{
-  color: var(--hospital-green);
-  border: 1px solid var(--hospital-green);
+  color: var(--dark-grayish-magenta);
+  border: 1px solid var(--dark-grayish-magenta);
 }
 .navbar-email{
   font-size: var(--sm);
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   margin-right: 12px;
 }
 .navbar-shopping-cart{
   position: relative;
 }
 .navbar-shopping-cart div{
-  width: 16px;
-  height: 16px;
-  background-color: var(--hospital-green);
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+  background-color: var(--dark-grayish-magenta);
   border-radius: 50%;
   font-size: var(--sm);
   font-weight: bold;
   position: absolute;
-  top: -6px;
-  right: -3px;
+  top: -10px;
+  right: -4px;
   display: flex;
   justify-content: center;
 }
@@ -498,13 +499,13 @@ nav{
   margin-bottom: 4px;
 }
 .product-info-complete p:nth-child(2){
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   font-size: var(--md);
   margin-top: 0;
   margin-bottom: 36px;
 }
 .product-info-complete p:nth-child(3){
-  color: var(--very-light-pink);
+  color: var(--very-dark-desaturated-magenta);
   font-size: var(--sm);
   margin-top: 0;
   margin-bottom: 36px;
